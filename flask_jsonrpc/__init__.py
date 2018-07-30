@@ -29,7 +29,7 @@
 import re
 import logging
 from functools import wraps
-from inspect import getfullargspec
+from inspect import getfullargspec as getargspec
 
 from flask.wrappers import Response
 from flask import current_app, request, jsonify
